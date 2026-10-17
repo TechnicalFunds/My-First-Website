@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #183244;
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
-            color: #ff0000;
-        }
-        p {
-            color: #fb00ff;
-        }
-    </style>
+    <meta name="description" content="Ryan's personal portfolio and selected work.">
+    <title>Home | Ryan's Portfolio</title>
 </head>
-    <h1>Hi I'm Ryan</h1>
-    <p>This is my Website!</p>  
-    <p> blah blah blah </p>
 <body>
+    <header>
+        <p>Ryan's Portfolio</p>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="projects.html">Projects / Work</a></li>
+                <li><a href="about.html">About / Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section aria-labelledby="welcome-heading">
+            <h1 id="welcome-heading">Hi, I'm Ryan.</h1>
+            <p>Welcome to my portfolio. I'm learning, building, and sharing my work here.</p>
+            <p><a href="projects.html">Explore my projects</a></p>
+        </section>
+
+        <section aria-labelledby="featured-heading">
+            <h2 id="featured-heading">A little about this site</h2>
+            <p>This is a home for the projects I'm proud of and the things I'm learning along the way.</p>
+            <h3>What you'll find</h3>
+            <p>Selected work, a short introduction, and a way to get in touch.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ryan. Thanks for stopping by.</p>
+    </footer>
 </body>
 </html>
