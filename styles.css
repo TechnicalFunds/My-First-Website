@@ -1,8 +1,7 @@
 :root {
     color-scheme: light;
     --color-navy: #183244;
-    --color-ink: #2D4A5A;
-    --color-sage: #DDE7DD;
+    --color-greenish: #758275;
     --color-coral: #E76F51;
 }
 
@@ -13,8 +12,8 @@
 body {
     min-height: 100vh;
     margin: 0;
-    background-color: var(--color-sage);
-    color: var(--color-ink);
+    background-color: var(--color-greenish);
+    color: var(--color-navy);
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
@@ -22,7 +21,7 @@ body {
 body > header,
 body > footer {
     background-color: var(--color-navy);
-    color: var(--color-sage);
+    color: var(--color-greenish);
     padding: 1rem max(1.5rem, calc((100% - 64rem) / 2));
 }
 
@@ -48,13 +47,13 @@ nav ul {
 }
 
 a {
-    color: var(--color-ink);
+    color: var(--color-navy);
     text-decoration-thickness: 0.1em;
     text-underline-offset: 0.2em;
 }
 
 body > header a {
-    color: var(--color-sage);
+    color: var(--color-greenish);
 }
 
 a:hover,
