@@ -1,7 +1,7 @@
 :root {
     color-scheme: light;
     --color-navy: #183244;
-    --color-cream: #F5F1E8;
+    --color-greenish: #758275;
     --color-coral: #E76F51;
 }
 
@@ -12,7 +12,7 @@
 body {
     min-height: 100vh;
     margin: 0;
-    background-color: var(--color-cream);
+    background-color: var(--color-greenish);
     color: var(--color-navy);
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -21,7 +21,7 @@ body {
 body > header,
 body > footer {
     background-color: var(--color-navy);
-    color: var(--color-cream);
+    color: var(--color-greenish);
     padding: 1rem max(1.5rem, calc((100% - 64rem) / 2));
 }
 
@@ -53,7 +53,7 @@ a {
 }
 
 body > header a {
-    color: var(--color-cream);
+    color: var(--color-greenish);
 }
 
 a:hover,
