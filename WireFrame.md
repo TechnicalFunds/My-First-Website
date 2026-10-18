@@ -2,65 +2,86 @@
 
 ## Wireframes
 
+Each page shares a dark navy header and footer, a greenish background, and coral accents. Content is centered in a readable column. Headings use Georgia; body text uses Arial.
+
 ### Home
 
 ```text
-+----------------------------------------------------+
-| Ryan's Portfolio       Home | Projects | About     |
-+----------------------------------------------------+
-|                                                    |
-|  Hi, I'm Ryan.                                     |
-|  Welcome / short introduction                      |
-|  [Explore my projects]                             |
-|                                                    |
-+----------------------------------------------------+
-|  A little about this site                          |
-|  What you'll find                                  |
-+----------------------------------------------------+
-|  Footer / copyright                                |
-+----------------------------------------------------+
++------------------------------------------------------------------+
+| NAVY HEADER                                                      |
+| Ryan's Page                  Home | Projects / Work | About / Contact
++------------------------------------------------------------------+
+|                    CENTERED CONTENT                              |
+|                                                                  |
+| Hi, I'm Ryan.                                                    |
+| Welcome to my page; I'm learning, sharing my interests and work. |
+| [Explore my projects]                                            |
+|                                                                  |
+| - - - - - - - - - CORAL ACCENT - - - - - - - - - - - - - - -   |
+| A little about this site                                         |
+| A home for my projects and personal interests.                   |
+| What you'll find                                                 |
+| Selected work, my interests, and a way to get in touch.          |
++------------------------------------------------------------------+
+| NAVY FOOTER: © 2026 Ryan. Thanks for stopping by.                |
++------------------------------------------------------------------+
 ```
 
 ### Projects / Work
 
 ```text
-+----------------------------------------------------+
-| Ryan's Portfolio       Home | Projects | About     |
-+----------------------------------------------------+
-|  Projects / Work                                   |
-|  Short introduction                               |
-+----------------------------------------------------+
-|  Selected projects                                 |
-|  +----------------------+  +---------------------+ |
-|  | My First Website     |  | Project Coming Soon | |
-|  | Summary and focus    |  | Summary and focus   | |
-|  +----------------------+  +---------------------+ |
-+----------------------------------------------------+
-|  Footer / copyright                                |
-+----------------------------------------------------+
++------------------------------------------------------------------+
+| NAVY HEADER                                                      |
+| Ryan's Page                  Home | Projects / Work | About / Contact
++------------------------------------------------------------------+
+|                    CENTERED CONTENT                              |
+| Projects / Work                                                  |
+| A selection of things I've made and explored.                    |
+| - - - - - - - - - CORAL ACCENT - - - - - - - - - - - - - - -   |
+| Selected projects                                                |
+|                                                                  |
+| | CORAL BORDER                                                   |
+| | My First Website                                               |
+| | Personal site built to practice HTML and share about me.       |
+| | Focus: Semantic HTML and page structure                        |
+|                                                                  |
+| | CORAL BORDER                                                   |
+| | Project Coming Soon                                            |
+| | I'll add another project when it's ready to share.             |
+| | Focus: To be announced                                         |
++------------------------------------------------------------------+
+| NAVY FOOTER: © 2026 Ryan. Thanks for stopping by.                |
++------------------------------------------------------------------+
 ```
 
-### About / Contact
+### About My Interests
 
 ```text
-+----------------------------------------------------+
-| Ryan's Portfolio       Home | Projects | About     |
-+----------------------------------------------------+
-|  About / Contact                                   |
-|  Short introduction                               |
-+----------------------------------------------------+
-|  About me                                          |
-|  What I'm learning                                 |
-+----------------------------------------------------+
-|  Get in touch                                      |
-|  Email link                                        |
-+----------------------------------------------------+
-|  Footer / copyright                                |
-+----------------------------------------------------+
++------------------------------------------------------------------+
+| NAVY HEADER                                                      |
+| Ryan's Page               Home | Projects / Work | About / Interests
++------------------------------------------------------------------+
+|                    CENTERED CONTENT                              |
+| About My Interests                                               |
+| Intro to my interest in marine biology and entomology.           |
+| - - - - - - - - - CORAL ACCENT - - - - - - - - - - - - - - -   |
+| My introduction                                                  |
+| What interests me                                                |
+| - Seals, including the endangered Caspian seal                    |
+| - Spiders, including my tarantula and former jumping spider Robby |
+| A subject I find fascinating: jumping spiders                    |
+| A picture related to my topic: Caspian seal pup and photo credit |
+| What I want to learn next                                        |
+| Get in touch                                                     |
+| Have a question or want to talk about a project?                 |
+| rsimyan@my.campus.edu                                            |
++------------------------------------------------------------------+
+| NAVY FOOTER: © 2026 Ryan. Thanks for stopping by.                |
++------------------------------------------------------------------+
 ```
 
 ## Visual direction
 
-- **Color palette:** deep navy `#183244` for strong structure, warm cream `#F5F1E8` for open backgrounds, and coral `#E76F51` for emphasis.
-- **Font choices:** a clean sans-serif such as Inter for body text, paired with Georgia for headings to add a friendly editorial feel.
-- **Current scope:** these are planning notes only; the pages intentionally contain no CSS yet.
+- **Colors:** greenish background `#758275`, deep navy `#183244` for text and the header/footer, and coral `#E76F51` for accents.
+- **Typography:** Arial for body text and Georgia for headings.
+- **Layout:** a centered content column; the header navigation wraps into a vertical layout on narrow screens. Project entries are marked with a coral left border.
