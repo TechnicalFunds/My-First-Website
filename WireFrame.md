@@ -1,4 +1,7 @@
 # Basic Website Wireframes
+
+![Hand-drawn wireframe sketches](image.png)
+
 ## Home
 
 ```text
@@ -45,14 +48,11 @@
 │ About My Interests                         │
 │ Short introduction                         │
 │                                            │
-│ Interests                                  │
-│ • Marine animals                           │
-│ • Insects and spiders                      │
-│                                            │
-│ ┌───────────────────┐  Short text /        │
-│ │                   │  contact details    │
-│ │   Image           │                      │
-│ └───────────────────┘                      │
+│ Interests              ┌───────────────┐   │
+│ • Marine animals       │               │   │
+│ • Insects and spiders  │     Image     │   │
+│                        │               │   │
+│                        └───────────────┘   │
 ├────────────────────────────────────────────┤
 │ © 2026 Ryan                                 │
 └────────────────────────────────────────────┘
