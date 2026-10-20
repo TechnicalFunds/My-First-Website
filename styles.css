@@ -154,4 +154,15 @@ body > footer p {
         align-items: flex-start;
         flex-direction: column;
     }
+
+    main > section[aria-labelledby="image-heading"] figure {
+        margin-inline: 0;
+    }
+
+    main > section[aria-labelledby="image-heading"] img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin-inline: auto;
+    }
 }
