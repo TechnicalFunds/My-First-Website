@@ -129,6 +129,12 @@ article {
     padding: 0.25rem 1rem;
 }
 
+.project-card {
+    border-radius: 0.5rem;
+    padding: 1rem 1.25rem;
+    background-color: rgb(255 255 255 / 22%);
+}
+
 body > footer {
     margin-top: auto;
 }
