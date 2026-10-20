@@ -80,22 +80,25 @@ main > header {
 }
 
 main > section {
-    position: relative;
-    margin: 1.5rem 0;
-    border: 1px solid rgb(24 50 68 / 22%);
-    border-radius: 0.2rem;
+    margin: 0;
+    border-right: 1px solid rgb(24 50 68 / 22%);
+    border-left: 1px solid rgb(24 50 68 / 22%);
     padding: 1rem 1.25rem;
     background-color: rgb(255 255 255 / 10%);
 }
 
-main > section + section::before {
-    position: absolute;
-    top: -1.5rem;
-    left: 50%;
-    width: 2px;
-    height: 1.5rem;
-    background-color: var(--color-coral);
-    content: "";
+main > section:first-of-type {
+    border-top: 1px solid rgb(24 50 68 / 22%);
+    border-radius: 0.2rem 0.2rem 0 0;
+}
+
+main > section + section {
+    border-top: 2px solid var(--color-coral);
+}
+
+main > section:last-of-type {
+    border-bottom: 1px solid rgb(24 50 68 / 22%);
+    border-radius: 0 0 0.2rem 0.2rem;
 }
 
 .welcome {
