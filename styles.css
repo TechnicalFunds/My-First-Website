@@ -79,6 +79,19 @@ main > header {
     padding-bottom: 1rem;
 }
 
+.welcome {
+    margin-bottom: 2rem;
+    border-left: 4px solid var(--color-coral);
+    padding: 0 1.25rem;
+}
+
+#welcome-heading {
+    text-decoration: underline;
+    text-decoration-color: var(--color-coral);
+    text-decoration-thickness: 0.15em;
+    text-underline-offset: 0.2em;
+}
+
 h1,
 h2,
 h3 {
