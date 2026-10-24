@@ -156,6 +156,12 @@ img {
     margin-inline: auto;
 }
 
+main > section[aria-labelledby="image-heading"] figure {
+    width: fit-content;
+    max-width: 100%;
+    margin-inline: auto;
+}
+
 main > section[aria-labelledby="image-heading"] figcaption {
     text-align: center;
 }
@@ -164,10 +170,6 @@ main > section[aria-labelledby="image-heading"] figcaption {
     body > header {
         align-items: flex-start;
         flex-direction: column;
-    }
-
-    main > section[aria-labelledby="image-heading"] figure {
-        margin-inline: 0;
     }
 }
 
