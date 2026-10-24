@@ -156,6 +156,10 @@ img {
     margin-inline: auto;
 }
 
+main > section[aria-labelledby="image-heading"] figcaption {
+    text-align: center;
+}
+
 @media (max-width: 36rem) {
     body > header {
         align-items: flex-start;
