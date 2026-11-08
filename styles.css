@@ -3,6 +3,7 @@
     --color-navy: #183244;
     --color-greenish: #758275;
     --color-coral: #E76F51;
+    --color-light: #FFFFFF;
     --font-body: "Source Sans 3", Arial, sans-serif;
     --font-heading: "Lora", Georgia, serif;
     --space-1: 0.5rem;
@@ -31,7 +32,7 @@ body {
 body > header,
 body > footer {
     background-color: var(--color-navy);
-    color: var(--color-greenish);
+    color: var(--color-light);
     padding: var(--space-2) max(var(--space-3), calc((100% - 64rem) / 2));
 }
 
@@ -63,7 +64,7 @@ a {
 }
 
 body > header a {
-    color: var(--color-greenish);
+    color: var(--color-light);
 }
 
 a:hover,
