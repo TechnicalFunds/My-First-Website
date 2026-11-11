@@ -78,6 +78,55 @@ a:focus-visible {
     outline-offset: 3px;
 }
 
+input,
+textarea {
+    width: 100%;
+    max-width: 32rem;
+    border: 2px solid var(--color-navy);
+    border-radius: 0.2rem;
+    padding: var(--space-1);
+    background-color: var(--color-light);
+    color: var(--color-navy);
+    font: inherit;
+}
+
+input:focus-visible,
+textarea:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--color-navy);
+    outline-offset: 3px;
+}
+
+button.button {
+    border: 2px solid var(--color-navy);
+    border-bottom-color: var(--color-coral);
+    background-color: var(--color-light);
+    color: var(--color-navy);
+    font: inherit;
+    cursor: pointer;
+}
+
+input[aria-invalid="true"],
+textarea[aria-invalid="true"] {
+    border-width: 3px;
+    border-color: var(--color-navy);
+}
+
+.field-error {
+    display: block;
+    width: fit-content;
+    margin-top: var(--space-1);
+    border-left: 3px solid var(--color-coral);
+    padding: var(--space-1);
+    background-color: var(--color-light);
+    color: var(--color-navy);
+    font-weight: 700;
+}
+
+.field-error[hidden] {
+    display: none;
+}
+
 main {
     width: min(100% - var(--space-6), 64rem);
     margin: 0 auto;
